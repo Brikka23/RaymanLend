@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo Bhai');
 @import url('https://fonts.googleapis.com/css2?family=B612&family=Baloo+Bhai+2&display=swap');
 
+body{
+    margin: 0;
+}
+
 header{
     display: flex;
     justify-content: column;
     align-items: center;
     background-color: #424242;
-    margin: -8px;
 }
 
 #logo{
@@ -39,4 +42,15 @@ a{
     width: 300px;
     height: 66px;
     background-color: #DB7C16;
+}
+
+#Face{
+    background-image: url("/img/image 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
